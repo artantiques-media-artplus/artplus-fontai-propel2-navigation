@@ -1,0 +1,22 @@
+{
+    "name": "fontai/propel2-navigation",
+    "version": "1.0",
+    "description": "Fontai extension for next / previous paging in Propel queries",
+    "authors": [
+        {
+            "name": "Lumír Toman",
+            "email": "toman@websource.cz"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fontai\\Propel\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
